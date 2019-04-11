@@ -1,0 +1,122 @@
+body{
+ background-color: blanchedalmond;
+}
+
+div.container {
+  width : 920px;
+  margin: 0px auto;
+  
+  }
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 2em;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.textbox1{
+margin-left: 3rem;
+}
+h1{
+  font-size: 5rem;
+  color: honeydew;
+}
+.box1 {
+  position: relative;
+  top: -5.7rem;
+  left: -1rem;
+  z-index: -1;
+  
+  background-color: gold;
+  width: 65%;
+ height: 200px;
+}
+h2{
+  position: relative;
+  right: -3rem;
+  font-size: 3rem;
+  color: honeydew;
+}
+
+.box2{
+  position: relative;
+  top: -3rem;
+  left: 40rem;
+  z-index: -1;
+  
+  background-color: gold;
+  width: 65%;
+ height: 200px;
+
+}
+
+.textbox2{
+  position: relative;
+  top: -10.2rem;
+  left: 10rem;
+  width: 50rem;
+  height: 15rem;
+}
+.leftgo{
+  position: relative;
+  left: -30rem;
+}
+
+@media screen and (max-width:599px) {
+  div.container {
+    width : 400px;
+   
+    margin: 0px auto;
+    
+    }
+  body{
+    block-size: %
+  }
+  .textbox1{
+    margin-left: 2rem;
+    }
+    h1{
+      font-size: 3rem;
+      color: honeydew;
+    }
+    .box1 {
+      position: relative;
+      top: -6.7rem;
+      left: -1rem;
+      z-index: -1;
+      
+      background-color: gold;
+      width: 80%;
+     height: 200px;
+    }
+    h2{
+      position: relative;
+      right: 42rem;
+      font-size: 2rem;
+      color: honeydew;
+    }
+    
+    .box2{
+      position: relative;
+      top: 2rem;
+      left: 4rem;
+      z-index: -1;
+      
+      background-color: gold;
+      width: 80%;
+     height: 150px;
+    
+    }
+    
+    .textbox2{
+      position: relative;
+      top: -10rem;
+      left: 45rem;
+      width: 20rem;
+      height: 7rem;
+    }
+   
+}
